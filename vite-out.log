@@ -1,0 +1,29 @@
+
+> reelio@1.0.0 dev
+> vite --host 127.0.0.1 --port 5173
+
+Port 5173 is in use, trying another one...
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m288[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5174[22m/[39m
+[2m12:36:28 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/App.jsx[22m
+[2m12:36:30 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/App.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/App.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/Badge.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/Button.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/Card.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/CreatorCard.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/Input.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/Layout.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/Logo.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/Navbar.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/AuthPages.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/CreatorProfilePage.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/DashboardPage.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/DiscoverPage.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/HireRequestPage.jsx[22m
+[2m12:39:20 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/LandingPage.jsx[22m
+[2m12:39:21 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/MessagesPage.jsx[22m
+[2m12:39:21 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/RoleSelectionPage.jsx[22m
+[2m12:39:21 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/SettingsPage.jsx[22m

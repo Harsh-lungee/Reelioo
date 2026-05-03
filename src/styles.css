@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #202035;
+  background: #fbf9ff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  box-shadow: 0 22px 70px rgba(107, 91, 149, 0.16);
+  backdrop-filter: blur(22px);
+}
+
+.soft-gradient {
+  background:
+    radial-gradient(circle at 12% 10%, rgba(203, 183, 255, 0.58), transparent 28%),
+    radial-gradient(circle at 88% 16%, rgba(110, 168, 254, 0.42), transparent 26%),
+    radial-gradient(circle at 48% 82%, rgba(255, 243, 248, 0.92), transparent 34%),
+    linear-gradient(135deg, #fbf9ff 0%, #f2eafe 42%, #eaf6ff 100%);
+}
+
+.page-shell {
+  min-height: 100vh;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.6), rgba(242, 234, 254, 0.68)),
+    radial-gradient(circle at top left, rgba(203, 183, 255, 0.44), transparent 26%),
+    radial-gradient(circle at top right, rgba(110, 168, 254, 0.32), transparent 28%),
+    #fbf9ff;
+}
