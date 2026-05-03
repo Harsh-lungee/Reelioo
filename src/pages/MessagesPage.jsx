@@ -5,8 +5,8 @@ import Card from "../components/Card.jsx";
 import Input from "../components/Input.jsx";
 import { getStoredUser } from "../utils/auth.js";
 
-const MESSAGE_API_URL = "http://localhost:5000/api/messages";
-const USER_SEARCH_API_URL = "http://localhost:5000/api/users/search";
+const MESSAGE_API_URL = "http://https://reelioo.onrender.com/api/messages";
+const USER_SEARCH_API_URL = "http://https://reelioo.onrender.com/api/users/search";
 
 function formatTime(date) {
   if (!date) {

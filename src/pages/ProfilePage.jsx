@@ -4,8 +4,8 @@ import Button from "../components/Button.jsx";
 import Card from "../components/Card.jsx";
 import { getStoredUser } from "../utils/auth.js";
 
-const POSTS_API_URL = "http://localhost:5000/api/posts";
-const HIRE_REQUEST_API_URL = "http://localhost:5000/api/hire-requests";
+const POSTS_API_URL = "http://https://reelioo.onrender.com/api/posts";
+const HIRE_REQUEST_API_URL = "http://https://reelioo.onrender.com/api/hire-requests";
 const statuses = ["pending", "accepted", "rejected", "completed"];
 
 function avatarFor(user) {

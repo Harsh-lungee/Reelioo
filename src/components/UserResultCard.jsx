@@ -4,7 +4,7 @@ import Button from "./Button.jsx";
 import Card from "./Card.jsx";
 import { getStoredUser } from "../utils/auth.js";
 
-const USERS_API_URL = "http://localhost:5000/api/users";
+const USERS_API_URL = "http://https://reelioo.onrender.com/api/users";
 
 function avatarFor(user) {
   return (

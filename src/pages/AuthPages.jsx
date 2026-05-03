@@ -4,7 +4,7 @@ import Card from "../components/Card.jsx";
 import Input from "../components/Input.jsx";
 import Logo from "../components/Logo.jsx";
 
-const AUTH_API_URL = "http://localhost:5000/api/auth";
+const AUTH_API_URL = "http://https://reelioo.onrender.com/api/auth";
 
 function saveSession({ token, user }) {
   localStorage.setItem("reelioToken", token);

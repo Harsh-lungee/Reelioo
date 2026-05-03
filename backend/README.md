@@ -56,7 +56,7 @@ CLOUDINARY_API_SECRET=your-api-secret
 The API runs on:
 
 ```txt
-http://localhost:5000
+http://https://reelioo.onrender.com
 ```
 
 ## Starter Endpoints

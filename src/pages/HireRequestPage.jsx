@@ -3,7 +3,7 @@ import Button from "../components/Button.jsx";
 import Card from "../components/Card.jsx";
 import Input from "../components/Input.jsx";
 
-const HIRE_REQUEST_API_URL = "http://localhost:5000/api/hire-requests";
+const HIRE_REQUEST_API_URL = "http://https://reelioo.onrender.com/api/hire-requests";
 
 function getLoggedInUser() {
   const storedUser = localStorage.getItem("reelioUser");
