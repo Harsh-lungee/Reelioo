@@ -5,8 +5,8 @@ import Card from "../components/Card.jsx";
 import { packages } from "../data/mockData.js";
 import { getStoredUser } from "../utils/auth.js";
 
-const USERS_API_URL = "http://https://reelioo.onrender.com/api/users";
-const POSTS_API_URL = "http://https://reelioo.onrender.com/api/posts";
+const USERS_API_URL = "https://reelioo.onrender.comhttps://reelioo.onrender.com/api/users";
+const POSTS_API_URL = "https://reelioo.onrender.comhttps://reelioo.onrender.com/api/posts";
 
 function isMongoId(id) {
   return /^[a-f\d]{24}$/i.test(String(id || ""));

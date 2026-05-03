@@ -5,9 +5,9 @@ import Input from "../components/Input.jsx";
 import { categories } from "../data/mockData.js";
 import { getStoredUser } from "../utils/auth.js";
 
-const PROFILE_API_URL = "http://https://reelioo.onrender.com/api/users/profile";
-const PROFILE_PICTURE_API_URL = "http://https://reelioo.onrender.com/api/users/profile-picture";
-const POSTS_API_URL = "http://https://reelioo.onrender.com/api/posts";
+const PROFILE_API_URL = "https://reelioo.onrender.comhttps://reelioo.onrender.com/api/users/profile";
+const PROFILE_PICTURE_API_URL = "https://reelioo.onrender.comhttps://reelioo.onrender.com/api/users/profile-picture";
+const POSTS_API_URL = "https://reelioo.onrender.comhttps://reelioo.onrender.com/api/posts";
 
 const emptyProfile = {
   name: "",

@@ -49,7 +49,7 @@ async function startServer() {
     await connectDB();
 
     app.listen(PORT, () => {
-      console.log(`Reelio backend running on http://localhost:${PORT}`);
+      console.log(`Reelio backend running on https://reelioo.onrender.comlocalhost:${PORT}`);
     });
   } catch (error) {
     console.error(`MongoDB connection failed: ${error.message}`);

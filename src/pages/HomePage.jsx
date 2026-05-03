@@ -6,9 +6,9 @@ import CreatorCard from "../components/CreatorCard.jsx";
 import Input from "../components/Input.jsx";
 import { categories } from "../data/mockData.js";
 
-const TOP_CREATORS_API_URL = "http://https://reelioo.onrender.com/api/creators/top";
-const POSTS_API_URL = "http://https://reelioo.onrender.com/api/posts";
-const REELS_API_URL = "http://https://reelioo.onrender.com/api/reels";
+const TOP_CREATORS_API_URL = "https://reelioo.onrender.comhttps://reelioo.onrender.com/api/creators/top";
+const POSTS_API_URL = "https://reelioo.onrender.comhttps://reelioo.onrender.com/api/posts";
+const REELS_API_URL = "https://reelioo.onrender.comhttps://reelioo.onrender.com/api/reels";
 
 export default function HomePage({ navigate }) {
   const [topCreators, setTopCreators] = useState([]);

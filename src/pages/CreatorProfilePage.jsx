@@ -5,7 +5,7 @@ import Card from "../components/Card.jsx";
 import { packages } from "../data/mockData.js";
 import { getStoredUser } from "../utils/auth.js";
 
-const USERS_API_URL = "http://https://reelioo.onrender.com/api/users";
+const USERS_API_URL = "https://reelioo.onrender.comhttps://reelioo.onrender.com/api/users";
 
 export default function CreatorProfilePage({ creator, navigate }) {
   const [profile, setProfile] = useState(creator);

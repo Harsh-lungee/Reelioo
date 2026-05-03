@@ -3,8 +3,8 @@ import Badge from "../components/Badge.jsx";
 import Button from "../components/Button.jsx";
 import Card from "../components/Card.jsx";
 
-const REELS_API_URL = "http://https://reelioo.onrender.com/api/reels";
-const USERS_API_URL = "http://https://reelioo.onrender.com/api/users";
+const REELS_API_URL = "https://reelioo.onrender.comhttps://reelioo.onrender.com/api/reels";
+const USERS_API_URL = "https://reelioo.onrender.comhttps://reelioo.onrender.com/api/users";
 
 function avatarFor(user) {
   return user?.profilePic || `https://ui-avatars.com/api/?name=${encodeURIComponent(user?.name || "Creator")}&background=F2EAFE&color=8B5CF6`;

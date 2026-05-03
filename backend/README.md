@@ -56,7 +56,7 @@ CLOUDINARY_API_SECRET=your-api-secret
 The API runs on:
 
 ```txt
-http://https://reelioo.onrender.com
+https://reelioo.onrender.comhttps://reelioo.onrender.com
 ```
 
 ## Starter Endpoints
