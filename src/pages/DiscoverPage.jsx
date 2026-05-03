@@ -8,8 +8,8 @@ import UserResultCard from "../components/UserResultCard.jsx";
 import { categories, portfolioFeed } from "../data/mockData.js";
 import { getDisplayName, getStoredUser } from "../utils/auth.js";
 
-const USER_SEARCH_API_URL = "http://localhost:5000/api/users/search";
-const TOP_CREATORS_API_URL = "http://localhost:5000/api/creators/top";
+const USER_SEARCH_API_URL = "https://reelioo.onrender.com/api/users/search";
+const TOP_CREATORS_API_URL = "https://reelioo.onrender.com/api/creators/top";
 
 const roleFilters = [
   { label: "All", value: "" },
